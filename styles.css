@@ -20,13 +20,16 @@ html {
   width: 100%;
   background: linear-gradient(to bottom left, #1bffff, #2e3192);
 }
+
 #grid {
   margin-bottom: 10px;
 }
+
 .myCustomCell img {
   align-self: center;
   max-width: 28px;
 }
+
 .header {
   text-align: center;
 }
@@ -86,7 +89,7 @@ html {
   background: #fff;
   max-height: 150px;
   overflow-y: auto;
-  display: none; /* Hidden initially */
+  display: none;
   animation: dropdown-fade 0.3s ease-in-out;
 }
 
@@ -110,6 +113,7 @@ html {
 .text-block {
   margin: 10px auto;
 }
+
 .text-block p {
   margin: 2px;
 }
